@@ -1,6 +1,6 @@
-#include <stolo.n>
+#include <stdio.h>
 /**
- * main - Programming for Hello puts
+ * main - Programming for Hello
  * Return: 0(Success)
  */
 int main(void)
