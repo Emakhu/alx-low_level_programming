@@ -1,11 +1,12 @@
 #include "main.h"
 
+
 /**
- * main - To write the alphabet
+ * print_alphabet - To write the alphabet
  * Return: void
  */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char c;
 	for (c = 'a'; c <= 'z'; c++)
@@ -13,5 +14,4 @@ int print_alphabet(void)
 		_putchar(c);
 	}
 	_putchar('\n');
-
 }
