@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "main.h"
 
 /**
@@ -16,22 +15,3 @@ int _islower(int c)
 	else
 		return (0);
 }
-=======
-#include "main.h"
-
-/**
-*_islower - checks is an alphabet is lowercase or not
-*
-* @c: alphabet to check
-*
-* Return: 1 if lower, else 0
-*/
-
-int _islower(int c)
-{
-	if (c >= 97 && c <= 122)
-		return (1);
-	else
-		return (0);
-}
->>>>>>> 7ca01b9c8c68791705f5cbeefcc989e3a77da9b0
